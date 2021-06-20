@@ -15,6 +15,7 @@ import java.net.URI;
 @RequestMapping("/registration")
 public class RegistrationController {
     private UserDataService userService;
+    private int count;
 
     public RegistrationController(UserDataService userService) {
         this.userService = userService;
