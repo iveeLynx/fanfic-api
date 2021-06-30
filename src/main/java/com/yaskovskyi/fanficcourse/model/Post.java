@@ -6,7 +6,7 @@ import javax.persistence.*;
 
 @Data
 @Entity
-@Table(name = "test")
+@Table(name = "posts")
 public class Post {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -21,7 +21,10 @@ public class Post {
     private String fanfic_name;
     @Column
     private String fanfic_tags;
-
+    @Column
+    private String fanfic_text;
+    @Column
+    private String fanfic_image;
 //    private int rating;
 //    private int likes;
 //    private int dislikes;
