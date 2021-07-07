@@ -25,6 +25,8 @@ public class Post {
     private String fanfic_text;
     @Column
     private String fanfic_image;
+    @Column
+    private String fanfic_creator;
 //    private int rating;
 //    private int likes;
 //    private int dislikes;
